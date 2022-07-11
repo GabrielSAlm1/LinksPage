@@ -20,14 +20,13 @@ body{
 }
 
 .link-bio img{
-    width: 150px;
-    height: 150px;
+    width: 20vh;
     border: solid 1px #fff;
     border-radius: 50%;
 }
 
 .link-bio h1{
-    font-size: 40px;
+    font-size: 35px;
 
 }
 
@@ -43,11 +42,37 @@ body{
     font-weight: bold;
     border: solid 2px #FF0000;
     border-radius: 10px;
+    
+}
+
+.fa-brands{
+    padding-right: 15px;
+    color: black;
+}
+
+.fa-solid{
+    padding-right: 15px;
+    color: black;
 }
 
 .link-bio a:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     background-color: #fff;
     color: #FF0000;
 }
 
+@media only screen and (max-width: 600px) {
+    .link-bio a{
+        background-color: #FF0000;
+        color: #fff;
+        padding: 15px;
+        width: 50%;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+        border: solid 2px #FF0000;
+        border-radius: 10px;
+    }
+  } 
