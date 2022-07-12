@@ -12,8 +12,9 @@ body{
 
 .link-bio{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 90%;
     margin: 40px auto;
     gap: 20px;
@@ -46,12 +47,14 @@ body{
 }
 
 .fa-brands{
-    padding-right: 15px;
+    /**padding-right: 15px;**/
+    float: left;
     color: black;
 }
 
 .fa-solid{
-    padding-right: 15px;
+    /**padding-right: 15px;**/
+    float: left;
     color: black;
 }
 
